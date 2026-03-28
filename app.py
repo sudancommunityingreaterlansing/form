@@ -1,5 +1,4 @@
-#from flask import Flask, render_template, request, redirect
-#import gspread
+from flask import Flask, render_template, request, redirect
 from oauth2client.service_account import ServiceAccountCredentials
 from datetime import datetime
 import gspread
